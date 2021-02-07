@@ -1,0 +1,69 @@
+
+/*
+TO FUTURE ME!!!
+if you're going to put this online, CHANGE THE BACKGROUND IMAGE AND THE FAVICON AND MAKE YOUR OWN!!
+sincerely,
+    Sumaita of 2020
+*/
+
+body {
+    text-align: center;
+    font-family: "Corbel", sans-serif;
+     background-image: url(green.gif);
+    background-size: contain;
+}       
+
+.intro{
+    font-family: "Gadugi", sans-serif;
+}
+
+#intro2{
+      background-color: #69c779;
+    color: #30733c;
+    border: dashed #30733c 8px;
+    border-radius: 10px;
+    border-bottom: none;
+}
+
+#after-submit{
+    visibility: hidden;
+}
+
+#submit-button{
+    visibility: visible;
+}
+
+#submit1{
+    
+     background-color: #3ba329;
+    color: #162413;
+    border-radius: 2px;
+    border: solid #162413 2px;
+    margin: 2px;
+    
+}
+
+#submit{
+    
+    background-color: #3ba329;
+    color: #162413;
+    border-radius: 10px;
+    border: dashed #162413;
+    margin: 5px;
+    width: 100px;
+    height: 55px;   
+    font-size: 25px;
+        
+}
+
+
+
+#plantest {
+    
+    background-color: #ddff99;
+    color: #476609;
+    border: dotted #476609 8px;
+    border-radius: 10px;
+
+}
+

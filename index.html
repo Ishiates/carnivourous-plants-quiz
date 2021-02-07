@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang = "en">
+    
+<!--
+TO FUTURE ME!!!
+if you're going to put this online, CHANGE THE BACKGROUND IMAGE AND THE FAVICON AND MAKE YOUR OWN!!
+sincerely,
+    Sumaita of 2020
+-->
+
+<head>
+<title> Murderous Plant Quiz </title> <!-- if you can, please find a better name for this quiz thank u :) -->
+<link href = "style.css" rel = "stylesheet">
+<script src = "quiz.js"></script>
+    
+<link rel="shortcut icon" href="favicon.jpg">
+
+</head>
+
+<body>
+
+<div id="intro2">
+<div class="intro">
+    <h1>Wanna take a quiz about carnivorous plants?</h1>
+    <h2>Well, you've come to the right place!</h2>
+</div>
+    
+<h2>Information</h2>
+    <p>you're taking a quiz about carnivorous plants like the Venus Flytrap. <br> A good way to help you pass is by reading the book <i>100 Facts: Plants</i>. <br> But also, learning about carnivorous plants in general from any reliable source works too. <br> There will be 6 questions, and at the end there will be a <span id="submit1">Submit</span> option, which you press then see your answers below, <br> Good luck! </p> <br>
+
+    </div>
+
+    
+<form id="quiz" name="quiz">
+    
+    <div id="plantest"> 
+    <h3> 1) Can carnivorous plants photosynthesize?</h3> <!-- MC is for Multiple Choice -->
+    <input type="radio" id="mc" name="question1" value="yesBut">Yes, but only a few <br>
+    <input type="radio" id="mc" name="question1" value="yes"> Yes, all of them <br>
+    <input type="radio" id="mc" name="question1" value="no"> No, none of them <br>
+    
+    
+    
+    <h3> 2) How do pitcher plants catch their prey?</h3>
+    <input type="radio" id="mc" name="question2" value="pitch1"> A sweet smelling liquid attracts nearby insects, causing them to land on the slippery plant and fall into what is actually a digestive enymze. <br>
+    <input type="radio" id="mc" name="question2" value="pitch2"> The pitcher plant slowly stretches out and traps insects in its slippery liquid, causing them to fall down and be digested. <br>
+    
+    <h3> 3) How do Venus Flytraps catch their prey?</h3>
+    <input type="radio" id="mc" name="question3" value="venus1"> The flytraps open up their jaws, and reach for unsuspecting insects and then close down on them, and then digest them with enymzes. <br>
+    <input type="radio" id="mc" name="question3" value="venus2"> The flytraps have sweet, nectar-smelling-like digestive enymzes on them that attract nearby insects. When the insects fly down on the flytrap, it snaps shut and digests it. <br>
+    <input type="radio" id="mc" name="question3" value="venus3"> The flytraps have touch-sensitive hairs on them that can sense when bugs crawl inside, causing the traps to snap shut, release enymzes and digest them. <br>
+    
+    <h3> 4) How do sticky sundews catch their prey?</h3>
+    <input type="radio" id="mc" name="question4" value="sundew1"> The sundews have sticky, touch-sensitive hairs that cause bugs to be stuck on them. When the hairs sense a bug, they release  digestive dews and digest them. <br>
+    <input type="radio" id="mc" name="question4" value="sundew2"> The sundews have a sweet, nectar-smelling-like dew on them that attracts bugs. When the bugs land on the sundews, the dew is actually a sticky, digestive enymze, which slowly eats the bug alive. <br>
+    
+    
+    
+    <h3> 5) Can carnivorous plants live underwater? </h3>
+    <input type="radio" id="mc" name="question5" value="waterNo"> No, they cant't <br>
+    <input type="radio" id="mc" name="question5" value="waterYes"> Yes, they can <br>
+    
+    
+    
+    <h3> 6) What is the most famous carnivorous plant? Please use capitals.</h3>
+    <input type="text" id="textbox" name="question6"></div> <br>
+    <br><br>
+    
+    <div id="submit-button">
+    <input id="submit" type="button" value="Submit" onclick="check()">
+    </div>
+    
+    </form>
+    
+<br>
+    
+
+<div id="after-submit">
+    <h2 id="numberCorrect">You've finished. wow.</h2>
+</div>
+    
+<br>
+
+
+
+
+    
+    
+</body>
+
+</html>
